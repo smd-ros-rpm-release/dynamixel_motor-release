@@ -1,0 +1,12 @@
+Source: ros-hydro-dynamixel-msgs
+Section: misc
+Priority: extra
+Maintainer: Antons Rebguns <arebgun@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-std-msgs
+Homepage: http://ros.org/wiki/dynamixel_driver
+Standards-Version: 3.9.2
+
+Package: ros-hydro-dynamixel-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-message-runtime, ros-hydro-std-msgs
+Description: Common messages used throughout dynamixel_motor stack.
